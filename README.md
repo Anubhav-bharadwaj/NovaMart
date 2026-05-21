@@ -41,7 +41,6 @@ The application architecture is designed to be modular, maintainable, and scalab
 - Node.js
 - Express.js
 - MongoDB
-- Mongoose
 - JWT Authentication
 
 ---
