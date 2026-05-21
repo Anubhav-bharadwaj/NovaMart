@@ -1,0 +1,2810 @@
+{
+  "users": [
+    {
+      "id": "947a6237-1edc-42ac-9f11-98bda8de5420",
+      "email": "admin@shop.com",
+      "password": "$2a$10$tVS2sLvOAgZnS1s9bt25xOAckhj2cHatsQ.iYtWyYeyrFTpZ22jDa",
+      "name": "Admin",
+      "role": "admin",
+      "created_at": "2026-04-24T21:06:21.486Z"
+    },
+    {
+      "id": "d8b6eee8-0ebd-4821-b9f9-6dc415d99f0d",
+      "email": "ab@exsmple.com",
+      "password": "$2a$10$33.qUwM7vNtyayafSohPGu5pojjSrv.Oi1Jyg7Kvgjw6HS0bztJZW",
+      "name": "AB",
+      "role": "user",
+      "created_at": "2026-04-25T13:26:32.890Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "89b65130-6558-4504-b2c8-6992b51c4d71",
+      "name": "Sony WH-1000XM5 Headphones",
+      "description": "Industry-leading noise canceling, 30-hour battery.",
+      "price": 23999,
+      "original_price": 28999,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=600"
+      ],
+      "stock": 50,
+      "rating": 4.8,
+      "reviews_count": 234,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "Silver",
+        "Blue"
+      ],
+      "featured": true,
+      "tags": [
+        "headphones",
+        "wireless"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "e7a2dce7-69b7-4d3a-b788-0c03821933d2",
+      "name": "Apple Watch Series 9",
+      "description": "Advanced smartwatch for fitness and connectivity.",
+      "price": 33999,
+      "original_price": 36999,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=600"
+      ],
+      "stock": 35,
+      "rating": 4.7,
+      "reviews_count": 189,
+      "sizes": [
+        "41mm",
+        "45mm"
+      ],
+      "colors": [
+        "Midnight",
+        "Starlight",
+        "RED"
+      ],
+      "featured": true,
+      "tags": [
+        "smartwatch"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "439a589b-1562-4a04-9f6d-7cebf2f8c8d4",
+      "name": "4K Ultra HD Monitor",
+      "description": "27\" 4K IPS 144Hz HDR400 USB-C monitor.",
+      "price": 37999,
+      "original_price": 45999,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=600"
+      ],
+      "stock": 30,
+      "rating": 4.7,
+      "reviews_count": 98,
+      "sizes": [],
+      "colors": [
+        "Black"
+      ],
+      "featured": true,
+      "tags": [
+        "monitor",
+        "4k"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "08339f53-c903-4f34-b368-83dcefea397e",
+      "name": "Bluetooth Speaker Portable",
+      "description": "360° sound, IPX7 waterproof, 24hr battery.",
+      "price": 7499,
+      "original_price": 9999,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=600"
+      ],
+      "stock": 80,
+      "rating": 4.7,
+      "reviews_count": 312,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "Blue",
+        "Red"
+      ],
+      "featured": true,
+      "tags": [
+        "speaker",
+        "bluetooth"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "0d77fee2-9e94-4a61-bd0b-ea8988d05d9b",
+      "name": "True Wireless Earbuds",
+      "description": "ANC, 30hr total battery, IPX5, wireless charging case.",
+      "price": 9999,
+      "original_price": 13299,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600"
+      ],
+      "stock": 90,
+      "rating": 4.6,
+      "reviews_count": 267,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "featured": true,
+      "tags": [
+        "earbuds",
+        "tws"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "5e1b6efb-e859-4539-aa84-158394e69e8b",
+      "name": "Premium Oversized Hoodie",
+      "description": "400gsm fleece, relaxed fit, kangaroo pocket.",
+      "price": 2999,
+      "original_price": 3999,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=600"
+      ],
+      "stock": 200,
+      "rating": 4.9,
+      "reviews_count": 456,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black",
+        "Cream",
+        "Sage",
+        "Dusty Rose",
+        "Navy"
+      ],
+      "featured": true,
+      "tags": [
+        "hoodie"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "f8ce7e14-7c8f-41c4-8cfe-91c947a3bc63",
+      "name": "High-Waist Yoga Leggings",
+      "description": "Squat-proof, 4-way stretch, hidden pocket.",
+      "price": 1999,
+      "original_price": 2799,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=600"
+      ],
+      "stock": 150,
+      "rating": 4.8,
+      "reviews_count": 289,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "Navy",
+        "Mauve",
+        "Forest"
+      ],
+      "featured": true,
+      "tags": [
+        "leggings",
+        "yoga"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "9d7daf42-06cf-4827-adb0-4bcf6bbb9253",
+      "name": "Puffer Jacket Lightweight",
+      "description": "Water-resistant, packable, 650-fill down.",
+      "price": 4999,
+      "original_price": 6999,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1547624643-3bf761b09502?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1547624643-3bf761b09502?w=600"
+      ],
+      "stock": 65,
+      "rating": 4.7,
+      "reviews_count": 167,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "Navy",
+        "Red",
+        "Forest"
+      ],
+      "featured": true,
+      "tags": [
+        "jacket",
+        "winter"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "e7231e7b-4885-4ad8-bbef-3d85d2ef2f90",
+      "name": "Turtleneck Knit Sweater",
+      "description": "Ribbed cable knit, 100% merino wool.",
+      "price": 3499,
+      "original_price": 4999,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1607522370275-f6fd21555ff9?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1607522370275-f6fd21555ff9?w=600"
+      ],
+      "stock": 70,
+      "rating": 4.8,
+      "reviews_count": 89,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Cream",
+        "Camel",
+        "Black",
+        "Forest"
+      ],
+      "featured": true,
+      "tags": [
+        "sweater",
+        "winter"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "3ac9eb98-7fc5-4d58-a49c-a5f4ca2aaf3a",
+      "name": "Trench Coat Classic",
+      "description": "Water-resistant, belted, knee-length.",
+      "price": 6999,
+      "original_price": 8999,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=600"
+      ],
+      "stock": 40,
+      "rating": 4.8,
+      "reviews_count": 67,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Camel",
+        "Black",
+        "Navy"
+      ],
+      "featured": true,
+      "tags": [
+        "coat",
+        "trench"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "0539ee05-af74-41e3-9723-0f14e525ccda",
+      "name": "Chunky Knit Throw Blanket",
+      "description": "Hand-knitted 100% merino wool throw.",
+      "price": 7499,
+      "original_price": 9999,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1545315003-c5ad6226c272?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1545315003-c5ad6226c272?w=600"
+      ],
+      "stock": 45,
+      "rating": 4.8,
+      "reviews_count": 156,
+      "sizes": [],
+      "colors": [
+        "Cream",
+        "Gray",
+        "Blush",
+        "Camel"
+      ],
+      "featured": true,
+      "tags": [
+        "blanket",
+        "cozy"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "f81af81a-0e94-41a9-ba22-5ce08b3cfa1e",
+      "name": "Air Purifier HEPA H13",
+      "description": "True HEPA + activated carbon, 600 sq ft, auto mode.",
+      "price": 15999,
+      "original_price": 20999,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600"
+      ],
+      "stock": 40,
+      "rating": 4.7,
+      "reviews_count": 167,
+      "sizes": [],
+      "colors": [
+        "White"
+      ],
+      "featured": true,
+      "tags": [
+        "air-purifier",
+        "health"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "b908267d-ba0e-40b6-a803-087e02467e57",
+      "name": "Pour-Over Coffee Maker",
+      "description": "Borosilicate glass, stainless filter, 600ml.",
+      "price": 4199,
+      "original_price": 5799,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600"
+      ],
+      "stock": 85,
+      "rating": 4.8,
+      "reviews_count": 234,
+      "sizes": [],
+      "colors": [
+        "Clear/Silver"
+      ],
+      "featured": true,
+      "tags": [
+        "coffee",
+        "kitchen"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "905909d7-db13-46b5-9ebc-e39dccb0bb3f",
+      "name": "Memory Foam Pillow",
+      "description": "Contour cervical support, cooling cover, CertiPUR-US.",
+      "price": 4999,
+      "original_price": 7499,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600"
+      ],
+      "stock": 100,
+      "rating": 4.7,
+      "reviews_count": 267,
+      "sizes": [],
+      "colors": [
+        "White"
+      ],
+      "featured": true,
+      "tags": [
+        "pillow",
+        "sleep"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "59c8a94a-ca77-40aa-88ac-edcd08af3e7a",
+      "name": "Non-Stick Cookware Set 10pc",
+      "description": "PFOA-free, induction ready, tempered glass lids.",
+      "price": 10999,
+      "original_price": 15999,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1584990347449-a2d4f79da6d6?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1584990347449-a2d4f79da6d6?w=600"
+      ],
+      "stock": 40,
+      "rating": 4.8,
+      "reviews_count": 89,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "Cream"
+      ],
+      "featured": true,
+      "tags": [
+        "cookware",
+        "kitchen"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "469898ec-c9f9-4a9b-8742-2785cfd9985d",
+      "name": "Adjustable Dumbbell Set",
+      "description": "5-52.5 lbs, quick-select dial.",
+      "price": 24999,
+      "original_price": 33299,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600"
+      ],
+      "stock": 25,
+      "rating": 4.9,
+      "reviews_count": 167,
+      "sizes": [],
+      "colors": [
+        "Black"
+      ],
+      "featured": true,
+      "tags": [
+        "dumbbells",
+        "gym"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "a4fa8023-a521-4f20-bb90-019a1c652acc",
+      "name": "Pro Running Shoes",
+      "description": "Carbon fiber plate, 39mm stack height.",
+      "price": 14999,
+      "original_price": 18299,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600"
+      ],
+      "stock": 60,
+      "rating": 4.7,
+      "reviews_count": 298,
+      "sizes": [
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "colors": [
+        "White/Black",
+        "Black/Red"
+      ],
+      "featured": true,
+      "tags": [
+        "shoes",
+        "running"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "8aeeb052-c8e5-4251-b460-10693f090ccc",
+      "name": "Hiking Boots Waterproof",
+      "description": "GORE-TEX, Vibram sole, ankle support.",
+      "price": 12499,
+      "original_price": 16599,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600"
+      ],
+      "stock": 55,
+      "rating": 4.8,
+      "reviews_count": 134,
+      "sizes": [
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "colors": [
+        "Brown",
+        "Black"
+      ],
+      "featured": true,
+      "tags": [
+        "hiking",
+        "boots"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "6279a39f-e589-4284-a764-62af1cc77597",
+      "name": "Vitamin C Face Serum 30ml",
+      "description": "20% Vitamin C, hyaluronic acid, niacinamide, brightening.",
+      "price": 3249,
+      "original_price": 4599,
+      "category": "Beauty",
+      "image_url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600"
+      ],
+      "stock": 100,
+      "rating": 4.8,
+      "reviews_count": 234,
+      "sizes": [],
+      "colors": [],
+      "featured": true,
+      "tags": [
+        "serum",
+        "skincare"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "3a71a9fe-bb8a-4885-b74f-d83f926a04c9",
+      "name": "Professional Makeup Brush Set 12pc",
+      "description": "Vegan synthetic hair, rose-gold handles, roll bag.",
+      "price": 3749,
+      "original_price": 5399,
+      "category": "Beauty",
+      "image_url": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=600"
+      ],
+      "stock": 85,
+      "rating": 4.8,
+      "reviews_count": 312,
+      "sizes": [],
+      "colors": [],
+      "featured": true,
+      "tags": [
+        "makeup",
+        "brushes"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "cafb0165-8031-44f9-aa2a-b5880692ca6d",
+      "name": "Eau de Parfum 50ml",
+      "description": "Woody-floral blend, long-lasting, vegan, cruelty-free.",
+      "price": 7499,
+      "original_price": 9999,
+      "category": "Beauty",
+      "image_url": "https://images.unsplash.com/photo-1541643600914-78b084683702?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1541643600914-78b084683702?w=600"
+      ],
+      "stock": 65,
+      "rating": 4.7,
+      "reviews_count": 123,
+      "sizes": [],
+      "colors": [
+        "Classic",
+        "Oud",
+        "Citrus"
+      ],
+      "featured": true,
+      "tags": [
+        "perfume",
+        "fragrance"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "def4d023-6181-47fe-bdde-ffaedf258775",
+      "name": "Mechanical Gaming Keyboard",
+      "description": "RGB Cherry MX switches, N-key rollover.",
+      "price": 10999,
+      "original_price": 13499,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600"
+      ],
+      "stock": 75,
+      "rating": 4.6,
+      "reviews_count": 142,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "featured": false,
+      "tags": [
+        "keyboard",
+        "gaming"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "ad692dd4-5606-4e66-8fc0-90ba6106d8ef",
+      "name": "Laptop Stand Aluminum",
+      "description": "Adjustable aluminum stand for 11-17\" laptops.",
+      "price": 3999,
+      "original_price": 6499,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=600"
+      ],
+      "stock": 120,
+      "rating": 4.5,
+      "reviews_count": 87,
+      "sizes": [],
+      "colors": [
+        "Silver",
+        "Space Gray"
+      ],
+      "featured": false,
+      "tags": [
+        "laptop",
+        "desk"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "b6d75208-eb68-4d95-b419-4d7beaafc89d",
+      "name": "Smart Fitness Tracker",
+      "description": "Heart rate, SpO2, GPS, 7-day battery.",
+      "price": 12499,
+      "original_price": 16499,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=600"
+      ],
+      "stock": 55,
+      "rating": 4.5,
+      "reviews_count": 189,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "Navy",
+        "Pink"
+      ],
+      "featured": false,
+      "tags": [
+        "fitness"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "4763c6a2-2396-4040-b207-e6519207f536",
+      "name": "Wireless Charging Pad",
+      "description": "15W Qi fast charging, ultra-thin.",
+      "price": 1999,
+      "original_price": 3299,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1618577608401-fd64ef80e6bc?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1618577608401-fd64ef80e6bc?w=600"
+      ],
+      "stock": 95,
+      "rating": 4.4,
+      "reviews_count": 145,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "featured": false,
+      "tags": [
+        "charger"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "d8f019db-be14-4c96-8e89-97f0f7b9762e",
+      "name": "USB-C Hub 10-in-1",
+      "description": "HDMI 4K, 3x USB-A, SD card, 100W PD.",
+      "price": 4999,
+      "original_price": 7499,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1625842268584-8f3296236761?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1625842268584-8f3296236761?w=600"
+      ],
+      "stock": 100,
+      "rating": 4.5,
+      "reviews_count": 98,
+      "sizes": [],
+      "colors": [
+        "Silver"
+      ],
+      "featured": false,
+      "tags": [
+        "hub",
+        "usb-c"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "125470d9-c200-4023-88ac-793d44adc204",
+      "name": "1080p Webcam",
+      "description": "Full HD, autofocus, built-in noise-canceling mic.",
+      "price": 6499,
+      "original_price": 8299,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1587826080692-f439cd0b70da?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1587826080692-f439cd0b70da?w=600"
+      ],
+      "stock": 60,
+      "rating": 4.4,
+      "reviews_count": 156,
+      "sizes": [],
+      "colors": [
+        "Black"
+      ],
+      "featured": false,
+      "tags": [
+        "webcam",
+        "wfh"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "c5f69fb0-81f3-4661-9ace-917a7520d443",
+      "name": "Portable SSD 1TB",
+      "description": "USB 3.2 Gen 2, 1050MB/s read, shock resistant.",
+      "price": 8999,
+      "original_price": 11499,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1597848212624-a19eb35e2651?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1597848212624-a19eb35e2651?w=600"
+      ],
+      "stock": 70,
+      "rating": 4.8,
+      "reviews_count": 203,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "Blue"
+      ],
+      "featured": false,
+      "tags": [
+        "ssd",
+        "storage"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "c106c883-bb25-41a6-bc8c-7709a5ec5810",
+      "name": "Smart LED Bulbs 4-Pack",
+      "description": "16M colors, voice control, 800 lumens, E27.",
+      "price": 3299,
+      "original_price": 4999,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600"
+      ],
+      "stock": 200,
+      "rating": 4.5,
+      "reviews_count": 178,
+      "sizes": [],
+      "colors": [
+        "White"
+      ],
+      "featured": false,
+      "tags": [
+        "smart-home",
+        "lighting"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "7a9743ef-aa66-4c4d-b86a-64ba0b424315",
+      "name": "Gaming Mouse Wireless",
+      "description": "25K DPI sensor, 70hr battery, 5 programmable buttons.",
+      "price": 6599,
+      "original_price": 9099,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1527814050087-3793815479db?w=600"
+      ],
+      "stock": 85,
+      "rating": 4.7,
+      "reviews_count": 189,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "featured": false,
+      "tags": [
+        "mouse",
+        "gaming"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "de4ae3fb-e79a-47e3-a31c-a4b5752882ad",
+      "name": "Portable Projector",
+      "description": "FHD 1080p, 700 ANSI lumens, built-in Android.",
+      "price": 28999,
+      "original_price": 37499,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=600"
+      ],
+      "stock": 25,
+      "rating": 4.5,
+      "reviews_count": 67,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "featured": false,
+      "tags": [
+        "projector"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "e5d6be59-8502-49f3-b55d-95accfee402d",
+      "name": "LED Strip Lights 10m",
+      "description": "RGB, app control, music sync, cut-to-length.",
+      "price": 2499,
+      "original_price": 4199,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1565849904461-04a58ad377e0?w=600"
+      ],
+      "stock": 150,
+      "rating": 4.4,
+      "reviews_count": 321,
+      "sizes": [],
+      "colors": [
+        "Multicolor"
+      ],
+      "featured": false,
+      "tags": [
+        "lighting",
+        "smart-home"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "5e790088-e379-485a-965d-0ca3272731b2",
+      "name": "Gaming Headset 7.1",
+      "description": "Surround sound, detachable mic, RGB.",
+      "price": 5799,
+      "original_price": 8299,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1599669454699-248893623440?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1599669454699-248893623440?w=600"
+      ],
+      "stock": 65,
+      "rating": 4.5,
+      "reviews_count": 178,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "featured": false,
+      "tags": [
+        "headset",
+        "gaming"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "90eeb751-0e10-4ad6-af7d-4388b461665a",
+      "name": "Mini Dash Cam 4K",
+      "description": "4K UHD, night vision, loop recording, parking mode.",
+      "price": 9999,
+      "original_price": 13999,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600"
+      ],
+      "stock": 40,
+      "rating": 4.6,
+      "reviews_count": 89,
+      "sizes": [],
+      "colors": [
+        "Black"
+      ],
+      "featured": false,
+      "tags": [
+        "dashcam",
+        "car"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "70cfdc1c-beac-4a81-9790-a25ac5c628fe",
+      "name": "Graphics Drawing Tablet",
+      "description": "8192 pressure levels, 10x6 inch, battery-free stylus.",
+      "price": 12499,
+      "original_price": 16499,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=600"
+      ],
+      "stock": 35,
+      "rating": 4.6,
+      "reviews_count": 123,
+      "sizes": [],
+      "colors": [
+        "Black"
+      ],
+      "featured": false,
+      "tags": [
+        "tablet",
+        "drawing"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "fe6bb1db-e595-4385-895f-904e62efb449",
+      "name": "Smart Security Camera",
+      "description": "2K QHD, color night vision, two-way audio, AI detection.",
+      "price": 4199,
+      "original_price": 6699,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1557324232-b8917d3c3dcb?w=600"
+      ],
+      "stock": 80,
+      "rating": 4.5,
+      "reviews_count": 145,
+      "sizes": [],
+      "colors": [
+        "White"
+      ],
+      "featured": false,
+      "tags": [
+        "security",
+        "smart-home"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "7a59e6ce-b125-45ba-9b19-7048b53965fd",
+      "name": "Noise Canceling Earphones",
+      "description": "Hybrid ANC, 10mm drivers, foldable, 32hr battery.",
+      "price": 4999,
+      "original_price": 7499,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600"
+      ],
+      "stock": 95,
+      "rating": 4.4,
+      "reviews_count": 112,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "featured": false,
+      "tags": [
+        "earphones"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "26eced3c-9906-4327-834e-d61dac7107dd",
+      "name": "Laptop Backpack 15.6\"",
+      "description": "Water-resistant, USB charging port, anti-theft.",
+      "price": 4199,
+      "original_price": 5799,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600"
+      ],
+      "stock": 110,
+      "rating": 4.6,
+      "reviews_count": 234,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "Gray",
+        "Navy"
+      ],
+      "featured": false,
+      "tags": [
+        "backpack",
+        "laptop"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "a103532e-97a4-4578-bbb3-a8e27694805c",
+      "name": "Solar Power Bank 26800mAh",
+      "description": "Dual USB + USB-C, solar charging, LED flashlight.",
+      "price": 3799,
+      "original_price": 5799,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1609429019995-8c40f49535a5?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1609429019995-8c40f49535a5?w=600"
+      ],
+      "stock": 70,
+      "rating": 4.4,
+      "reviews_count": 98,
+      "sizes": [],
+      "colors": [
+        "Black"
+      ],
+      "featured": false,
+      "tags": [
+        "powerbank",
+        "solar"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "23be227f-bc31-4143-a52a-b5d3f73abd19",
+      "name": "Smart Plug WiFi 4-Pack",
+      "description": "Energy monitoring, voice control, timer schedules.",
+      "price": 2499,
+      "original_price": 3699,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600"
+      ],
+      "stock": 160,
+      "rating": 4.5,
+      "reviews_count": 267,
+      "sizes": [],
+      "colors": [
+        "White"
+      ],
+      "featured": false,
+      "tags": [
+        "smart-home"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "b449d8e3-7a88-453c-b333-476234ffc1d6",
+      "name": "Wireless Keyboard & Mouse",
+      "description": "Slim 2.4GHz set, 24-month battery, silent keys.",
+      "price": 3299,
+      "original_price": 4999,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1541140532154-b024d705b90a?w=600"
+      ],
+      "stock": 100,
+      "rating": 4.4,
+      "reviews_count": 189,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "White"
+      ],
+      "featured": false,
+      "tags": [
+        "keyboard",
+        "mouse"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "6dbfb1a6-046e-4e86-a9f8-c46a49b27223",
+      "name": "Action Camera 4K",
+      "description": "4K 60fps, EIS stabilization, waterproof 30m, wide-angle.",
+      "price": 16599,
+      "original_price": 22499,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=600"
+      ],
+      "stock": 45,
+      "rating": 4.7,
+      "reviews_count": 156,
+      "sizes": [],
+      "colors": [
+        "Black"
+      ],
+      "featured": false,
+      "tags": [
+        "camera",
+        "action"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "e0754635-5ab8-483e-9a24-93023cd5cf84",
+      "name": "Smart Doorbell Camera",
+      "description": "HD video, motion alerts, two-way talk, night vision.",
+      "price": 8299,
+      "original_price": 11599,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600"
+      ],
+      "stock": 55,
+      "rating": 4.5,
+      "reviews_count": 89,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "featured": false,
+      "tags": [
+        "doorbell",
+        "smart-home"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "2ea3c532-3f43-4509-a093-33b98eee9826",
+      "name": "Portable Bluetooth Keyboard",
+      "description": "Slim aluminum, multi-device, rechargeable.",
+      "price": 4199,
+      "original_price": 5799,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=600"
+      ],
+      "stock": 80,
+      "rating": 4.5,
+      "reviews_count": 134,
+      "sizes": [],
+      "colors": [
+        "Silver",
+        "Black"
+      ],
+      "featured": false,
+      "tags": [
+        "keyboard",
+        "bluetooth"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "0b04975a-f679-48ad-8a7f-4778e684acc9",
+      "name": "VR Headset PC",
+      "description": "110° FOV, 6DOF tracking, dual 2.5K displays.",
+      "price": 24999,
+      "original_price": 33299,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1617802690992-15d93263d3a9?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1617802690992-15d93263d3a9?w=600"
+      ],
+      "stock": 20,
+      "rating": 4.4,
+      "reviews_count": 67,
+      "sizes": [],
+      "colors": [
+        "Black"
+      ],
+      "featured": false,
+      "tags": [
+        "vr",
+        "gaming"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "b09957eb-9fef-4f25-ab75-a969439be372",
+      "name": "Monitor Light Bar",
+      "description": "USB powered, auto brightness, 3-step dimming.",
+      "price": 2999,
+      "original_price": 4199,
+      "category": "Electronics",
+      "image_url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600"
+      ],
+      "stock": 120,
+      "rating": 4.6,
+      "reviews_count": 198,
+      "sizes": [],
+      "colors": [
+        "White",
+        "Black"
+      ],
+      "featured": false,
+      "tags": [
+        "lighting",
+        "desk"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "b49f5db6-dcfe-4ca4-b6be-faa6051234d9",
+      "name": "Classic Pima Cotton T-Shirt",
+      "description": "200gsm Pima cotton, pre-shrunk, relaxed fit.",
+      "price": 899,
+      "original_price": null,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600"
+      ],
+      "stock": 500,
+      "rating": 4.6,
+      "reviews_count": 312,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White",
+        "Black",
+        "Navy",
+        "Gray",
+        "Olive"
+      ],
+      "featured": false,
+      "tags": [
+        "t-shirt"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "3c8329d5-25f7-495b-8173-90e5d43c57ba",
+      "name": "Slim Fit Denim Jacket",
+      "description": "Vintage-wash denim, modern slim fit.",
+      "price": 3499,
+      "original_price": 4999,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1544441893-675973e31985?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1544441893-675973e31985?w=600"
+      ],
+      "stock": 80,
+      "rating": 4.5,
+      "reviews_count": 178,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Light Wash",
+        "Dark Wash",
+        "Black"
+      ],
+      "featured": false,
+      "tags": [
+        "jacket",
+        "denim"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "54a12de0-5128-4299-bef1-447d0a8c3cdd",
+      "name": "Cargo Jogger Pants",
+      "description": "Multi-pocket, elastic waist, tapered fit.",
+      "price": 1799,
+      "original_price": 2499,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1594938298603-c8148c4b4ae6?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1594938298603-c8148c4b4ae6?w=600"
+      ],
+      "stock": 120,
+      "rating": 4.5,
+      "reviews_count": 145,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black",
+        "Olive",
+        "Beige",
+        "Gray"
+      ],
+      "featured": false,
+      "tags": [
+        "cargo",
+        "pants"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "83a28539-1852-45a0-89b1-f245a46fb1b8",
+      "name": "Polo Shirt Performance",
+      "description": "Moisture-wicking, UV protection, stretch fabric.",
+      "price": 1499,
+      "original_price": 1999,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99?w=600"
+      ],
+      "stock": 180,
+      "rating": 4.5,
+      "reviews_count": 112,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "White",
+        "Navy",
+        "Black",
+        "Sky Blue"
+      ],
+      "featured": false,
+      "tags": [
+        "polo"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "82f2f34f-3d56-4127-b009-a386cc7efcee",
+      "name": "Linen Button-Down Shirt",
+      "description": "100% linen, relaxed fit, breathable.",
+      "price": 1999,
+      "original_price": 2799,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=600"
+      ],
+      "stock": 90,
+      "rating": 4.6,
+      "reviews_count": 98,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "White",
+        "Light Blue",
+        "Beige",
+        "Sage"
+      ],
+      "featured": false,
+      "tags": [
+        "shirt",
+        "linen"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "5f1908a7-a7c4-4390-b770-6d5d95f0138a",
+      "name": "Bomber Jacket Satin",
+      "description": "Satin finish, ribbed cuffs, embroidered logo.",
+      "price": 3499,
+      "original_price": 4999,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1548126032-079a0fb0099d?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1548126032-079a0fb0099d?w=600"
+      ],
+      "stock": 55,
+      "rating": 4.7,
+      "reviews_count": 134,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "Burgundy",
+        "Navy"
+      ],
+      "featured": false,
+      "tags": [
+        "jacket",
+        "bomber"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "eea83cef-9325-4d98-a62d-4e85f3d70d25",
+      "name": "Athletic Shorts 5\"",
+      "description": "Stretch liner, sweat-wicking, phone pocket.",
+      "price": 999,
+      "original_price": 1499,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1565084888279-aca607bb7815?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1565084888279-aca607bb7815?w=600"
+      ],
+      "stock": 200,
+      "rating": 4.5,
+      "reviews_count": 234,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Black",
+        "Navy",
+        "Gray",
+        "Red"
+      ],
+      "featured": false,
+      "tags": [
+        "shorts",
+        "sports"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "fee3e2f3-01e8-4bca-ae56-b9e15c4b191f",
+      "name": "Maxi Wrap Dress",
+      "description": "Flowy chiffon, adjustable wrap, floral print.",
+      "price": 2499,
+      "original_price": 3499,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600"
+      ],
+      "stock": 85,
+      "rating": 4.7,
+      "reviews_count": 156,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Floral",
+        "Black",
+        "Dusty Rose"
+      ],
+      "featured": false,
+      "tags": [
+        "dress"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "aed99d18-3e34-4209-a8da-689a85c268d1",
+      "name": "Slim Chino Pants",
+      "description": "Stretch cotton, flat front, straight leg.",
+      "price": 2199,
+      "original_price": 2999,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=600"
+      ],
+      "stock": 110,
+      "rating": 4.5,
+      "reviews_count": 123,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Khaki",
+        "Navy",
+        "Olive",
+        "Gray"
+      ],
+      "featured": false,
+      "tags": [
+        "chinos",
+        "pants"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "7fd4eebf-c2c1-4165-96ce-bd11eaa917bc",
+      "name": "Sports Bra High-Impact",
+      "description": "4-way stretch, racerback, removable pads.",
+      "price": 1499,
+      "original_price": 1999,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1582418702059-97ebafb35d09?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1582418702059-97ebafb35d09?w=600"
+      ],
+      "stock": 140,
+      "rating": 4.8,
+      "reviews_count": 198,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Coral",
+        "Navy"
+      ],
+      "featured": false,
+      "tags": [
+        "bra",
+        "sports"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "9debb6be-7090-43b0-bdf6-c4df9c125c14",
+      "name": "Fleece Zip-Up Jacket",
+      "description": "Anti-pill fleece, two pockets, elastic hem.",
+      "price": 1999,
+      "original_price": 2799,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1580418827493-f2b22c0a76cb?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1580418827493-f2b22c0a76cb?w=600"
+      ],
+      "stock": 100,
+      "rating": 4.6,
+      "reviews_count": 145,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Navy",
+        "Gray",
+        "Black",
+        "Red"
+      ],
+      "featured": false,
+      "tags": [
+        "jacket",
+        "fleece"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "f8ee93ac-58a4-429a-a631-950e2c8ccecc",
+      "name": "Cropped Tank Top",
+      "description": "Ribbed cotton, slim fit, versatile.",
+      "price": 799,
+      "original_price": 1199,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=600"
+      ],
+      "stock": 250,
+      "rating": 4.5,
+      "reviews_count": 267,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "White",
+        "Black",
+        "Sage",
+        "Cream",
+        "Pink"
+      ],
+      "featured": false,
+      "tags": [
+        "tank",
+        "top"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "4ba5d8f8-10de-4c62-ab60-67045581f7a8",
+      "name": "Swim Trunks Quick-Dry",
+      "description": "4-way stretch, mesh lining, drawstring.",
+      "price": 1199,
+      "original_price": 1699,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1565339119519-5a7dc1f20b9a?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1565339119519-5a7dc1f20b9a?w=600"
+      ],
+      "stock": 160,
+      "rating": 4.5,
+      "reviews_count": 189,
+      "sizes": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        "Blue",
+        "Black",
+        "Tropical",
+        "Red"
+      ],
+      "featured": false,
+      "tags": [
+        "swim",
+        "shorts"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "a2dab84d-d423-4758-8c50-2923375732c8",
+      "name": "Beanie Knit Hat",
+      "description": "100% acrylic, slouchy fit, warm.",
+      "price": 699,
+      "original_price": 1099,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=600"
+      ],
+      "stock": 200,
+      "rating": 4.6,
+      "reviews_count": 312,
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        "Black",
+        "Gray",
+        "Burgundy",
+        "Cream",
+        "Navy"
+      ],
+      "featured": false,
+      "tags": [
+        "hat",
+        "beanie"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "0f24dbf9-fb9d-4165-83bc-014978ab60b7",
+      "name": "Compression Running Socks",
+      "description": "Graduated compression, moisture-wicking, 3-pack.",
+      "price": 999,
+      "original_price": 1499,
+      "category": "Clothing",
+      "image_url": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=600"
+      ],
+      "stock": 300,
+      "rating": 4.7,
+      "reviews_count": 245,
+      "sizes": [
+        "S/M",
+        "L/XL"
+      ],
+      "colors": [
+        "Black",
+        "White",
+        "Gray"
+      ],
+      "featured": false,
+      "tags": [
+        "socks",
+        "running"
+      ],
+      "created_at": "2026-04-24T21:06:21.487Z"
+    },
+    {
+      "id": "e711b457-ef05-4b7c-a631-8885fea7379c",
+      "name": "Luxury Scented Candle Set",
+      "description": "Set of 3 hand-poured soy wax candles.",
+      "price": 3799,
+      "original_price": 4999,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1602874801007-bd458bb1a160?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1602874801007-bd458bb1a160?w=600"
+      ],
+      "stock": 90,
+      "rating": 4.9,
+      "reviews_count": 203,
+      "sizes": [],
+      "colors": [],
+      "featured": false,
+      "tags": [
+        "candles",
+        "gift"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "cd00ca17-a925-448f-ac2e-3ed8df240a5f",
+      "name": "Minimalist LED Desk Lamp",
+      "description": "5 color modes, 10 brightness levels, USB-C port.",
+      "price": 5999,
+      "original_price": 7999,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=600"
+      ],
+      "stock": 65,
+      "rating": 4.6,
+      "reviews_count": 134,
+      "sizes": [],
+      "colors": [
+        "White",
+        "Black",
+        "Rose Gold"
+      ],
+      "featured": false,
+      "tags": [
+        "lamp",
+        "desk"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "8a28f3a7-e6df-4c4c-b09b-6b27064223b4",
+      "name": "Ceramic Coffee Mug Set",
+      "description": "4 handcrafted 12oz ceramic mugs, gift box.",
+      "price": 3299,
+      "original_price": null,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1514228742587-6b1558fcca3d?w=600"
+      ],
+      "stock": 110,
+      "rating": 4.7,
+      "reviews_count": 87,
+      "sizes": [],
+      "colors": [
+        "Earth Tones",
+        "Ocean Blue"
+      ],
+      "featured": false,
+      "tags": [
+        "mugs",
+        "kitchen"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "752ff0a1-234f-44d7-a400-cc6a0f683cb1",
+      "name": "Ultrasonic Humidifier 5L",
+      "description": "Cool mist, auto shut-off, 50hr runtime, whisper quiet.",
+      "price": 4999,
+      "original_price": 7499,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=600"
+      ],
+      "stock": 70,
+      "rating": 4.5,
+      "reviews_count": 98,
+      "sizes": [],
+      "colors": [
+        "White",
+        "Black"
+      ],
+      "featured": false,
+      "tags": [
+        "humidifier",
+        "home"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "e8933e6a-6750-4cb5-baea-c6db318f62c8",
+      "name": "Electric Kettle 1.7L",
+      "description": "1800W, variable temp, keep warm, gooseneck.",
+      "price": 5999,
+      "original_price": 7499,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1583623025817-d180a2221d0a?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1583623025817-d180a2221d0a?w=600"
+      ],
+      "stock": 80,
+      "rating": 4.7,
+      "reviews_count": 189,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "Silver",
+        "Rose Gold"
+      ],
+      "featured": false,
+      "tags": [
+        "kettle",
+        "kitchen"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "d8c6aafc-47b2-4b45-a5a4-e5ea7969e121",
+      "name": "Countertop Blender Pro",
+      "description": "1200W, 6-blade, 72oz jar, 10-speed.",
+      "price": 8499,
+      "original_price": 12499,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1570197788417-0e82375c9371?w=600"
+      ],
+      "stock": 50,
+      "rating": 4.6,
+      "reviews_count": 145,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "Silver"
+      ],
+      "featured": false,
+      "tags": [
+        "blender",
+        "kitchen"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "52afecfc-6616-4302-88dc-65ab58d55d63",
+      "name": "Bamboo Cutting Board Set",
+      "description": "3-piece bamboo, juice groove, hanging hole.",
+      "price": 2999,
+      "original_price": 4199,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600"
+      ],
+      "stock": 130,
+      "rating": 4.6,
+      "reviews_count": 178,
+      "sizes": [],
+      "colors": [],
+      "featured": false,
+      "tags": [
+        "kitchen",
+        "bamboo"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "7c904c83-fa9e-4bdb-b0fa-9aa0cccd868a",
+      "name": "Wall Art Print Set 3-Piece",
+      "description": "Abstract boho art, gallery-quality prints.",
+      "price": 4199,
+      "original_price": 6199,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=600"
+      ],
+      "stock": 75,
+      "rating": 4.7,
+      "reviews_count": 112,
+      "sizes": [],
+      "colors": [
+        "Warm Tone",
+        "Cool Tone",
+        "Earth Tone"
+      ],
+      "featured": false,
+      "tags": [
+        "art",
+        "wall-decor"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "ea138021-b609-41cc-9321-54532c3fa5d1",
+      "name": "Storage Basket Set 3-Pack",
+      "description": "Seagrass woven, handles, nesting sizes.",
+      "price": 3799,
+      "original_price": 5399,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600"
+      ],
+      "stock": 90,
+      "rating": 4.5,
+      "reviews_count": 89,
+      "sizes": [],
+      "colors": [
+        "Natural",
+        "Black/White"
+      ],
+      "featured": false,
+      "tags": [
+        "storage",
+        "decor"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "24670c58-a28c-4261-b85e-626a967a008e",
+      "name": "Blackout Curtains 2-Pack",
+      "description": "Energy-saving, thermal insulated, grommet top.",
+      "price": 4199,
+      "original_price": 5799,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600"
+      ],
+      "stock": 85,
+      "rating": 4.6,
+      "reviews_count": 145,
+      "sizes": [],
+      "colors": [
+        "Gray",
+        "Navy",
+        "White",
+        "Beige"
+      ],
+      "featured": false,
+      "tags": [
+        "curtains",
+        "bedroom"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "c0abae6c-2bf0-4b87-9dc6-c97822565a49",
+      "name": "Indoor Plant Ceramic Pot Set",
+      "description": "3-piece marble effect pots with drainage holes.",
+      "price": 2899,
+      "original_price": 4199,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600"
+      ],
+      "stock": 120,
+      "rating": 4.6,
+      "reviews_count": 98,
+      "sizes": [],
+      "colors": [
+        "White/Gold",
+        "Black/Gold",
+        "Terracotta"
+      ],
+      "featured": false,
+      "tags": [
+        "plants",
+        "decor"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "705617cb-638a-4cf6-bda4-b9eaf5cdc902",
+      "name": "Kitchen Scale Digital",
+      "description": "0.1g precision, 11lb capacity, tare, LCD.",
+      "price": 1599,
+      "original_price": 2499,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600"
+      ],
+      "stock": 200,
+      "rating": 4.7,
+      "reviews_count": 312,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "White",
+        "Silver"
+      ],
+      "featured": false,
+      "tags": [
+        "kitchen",
+        "baking"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "cba885ab-c6d6-4608-abd2-3e0d816fb8af",
+      "name": "Dish Drying Rack 2-Tier",
+      "description": "Rust-proof stainless, removable tray, utensil holder.",
+      "price": 3299,
+      "original_price": 4599,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600"
+      ],
+      "stock": 95,
+      "rating": 4.5,
+      "reviews_count": 134,
+      "sizes": [],
+      "colors": [
+        "Silver",
+        "Matte Black"
+      ],
+      "featured": false,
+      "tags": [
+        "kitchen",
+        "organization"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "dd16d28a-3c09-4836-9553-5074d8056605",
+      "name": "Scented Reed Diffuser Set",
+      "description": "150ml, 8 fibre reeds, 30-day fragrance.",
+      "price": 2399,
+      "original_price": 3299,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1602874801007-bd458bb1a160?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1602874801007-bd458bb1a160?w=600"
+      ],
+      "stock": 160,
+      "rating": 4.7,
+      "reviews_count": 189,
+      "sizes": [],
+      "colors": [
+        "Lavender",
+        "Sandalwood",
+        "Citrus"
+      ],
+      "featured": false,
+      "tags": [
+        "fragrance",
+        "decor"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "3b8f3438-e8cf-4227-8d16-3224a6980154",
+      "name": "Shower Head Rain-Style",
+      "description": "12\" overhead, 3-setting, easy install, chrome.",
+      "price": 3799,
+      "original_price": 5399,
+      "category": "Home",
+      "image_url": "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600"
+      ],
+      "stock": 80,
+      "rating": 4.5,
+      "reviews_count": 112,
+      "sizes": [],
+      "colors": [
+        "Chrome",
+        "Matte Black"
+      ],
+      "featured": false,
+      "tags": [
+        "bathroom",
+        "shower"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "2abf7e64-577d-491b-8a2b-f6ef8f898f30",
+      "name": "Premium Yoga Mat",
+      "description": "6mm non-slip TPE mat, alignment lines, carry strap.",
+      "price": 4599,
+      "original_price": 5999,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=600"
+      ],
+      "stock": 85,
+      "rating": 4.7,
+      "reviews_count": 234,
+      "sizes": [],
+      "colors": [
+        "Purple",
+        "Blue",
+        "Black",
+        "Green"
+      ],
+      "featured": false,
+      "tags": [
+        "yoga",
+        "fitness"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "f16d6a7a-b7f6-4de0-9d09-628abd604817",
+      "name": "Insulated Water Bottle 32oz",
+      "description": "Triple-wall vacuum, cold 48hr, hot 24hr.",
+      "price": 2899,
+      "original_price": 4199,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=600"
+      ],
+      "stock": 200,
+      "rating": 4.8,
+      "reviews_count": 412,
+      "sizes": [
+        "18oz",
+        "24oz",
+        "32oz"
+      ],
+      "colors": [
+        "Black",
+        "Blue",
+        "Green",
+        "Coral"
+      ],
+      "featured": false,
+      "tags": [
+        "hydration"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "94783b01-ad4e-4371-b19d-c0a2e85aa02a",
+      "name": "Resistance Bands Set 11pc",
+      "description": "10-150 lbs, handles, door anchor, ankle straps.",
+      "price": 2499,
+      "original_price": 3799,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=600"
+      ],
+      "stock": 180,
+      "rating": 4.6,
+      "reviews_count": 321,
+      "sizes": [],
+      "colors": [
+        "Black"
+      ],
+      "featured": false,
+      "tags": [
+        "resistance",
+        "fitness"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "f1e403d9-2324-40c2-a27a-3abc2daaba68",
+      "name": "Jump Rope Speed Cable",
+      "description": "Ball bearings, adjustable length, aluminum handles.",
+      "price": 1699,
+      "original_price": 2499,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1598971861713-54ad16a7e72e?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1598971861713-54ad16a7e72e?w=600"
+      ],
+      "stock": 200,
+      "rating": 4.6,
+      "reviews_count": 289,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "Red",
+        "Blue"
+      ],
+      "featured": false,
+      "tags": [
+        "jump-rope",
+        "cardio"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "fa4c9b7a-4d20-4a6f-895f-db995ff925fe",
+      "name": "Pull-Up Bar Doorway",
+      "description": "No-screw, foam grips, max 440lbs, multi-grip.",
+      "price": 3799,
+      "original_price": 5399,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600"
+      ],
+      "stock": 90,
+      "rating": 4.5,
+      "reviews_count": 156,
+      "sizes": [],
+      "colors": [
+        "Black"
+      ],
+      "featured": false,
+      "tags": [
+        "pull-up",
+        "calisthenics"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "01abe5cd-f19c-467f-887d-fbc642f61d5d",
+      "name": "Foam Roller High-Density",
+      "description": "33cm, grid design, trigger point relief.",
+      "price": 2099,
+      "original_price": 3299,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600"
+      ],
+      "stock": 150,
+      "rating": 4.6,
+      "reviews_count": 198,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "Blue",
+        "Gray"
+      ],
+      "featured": false,
+      "tags": [
+        "foam-roller",
+        "recovery"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "a88a6e2a-3315-4e71-a717-a1a9931dc504",
+      "name": "Ab Roller Wheel Pro",
+      "description": "Dual wheel, non-slip mat, ergonomic handles.",
+      "price": 1899,
+      "original_price": 2899,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600"
+      ],
+      "stock": 160,
+      "rating": 4.5,
+      "reviews_count": 234,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "Red"
+      ],
+      "featured": false,
+      "tags": [
+        "abs",
+        "core"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "976645de-faff-4b2a-82da-ed26d5d2b95e",
+      "name": "Kettlebell Cast Iron",
+      "description": "Powder-coated, flat base, various weights.",
+      "price": 3299,
+      "original_price": 4599,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600"
+      ],
+      "stock": 100,
+      "rating": 4.8,
+      "reviews_count": 145,
+      "sizes": [
+        "8kg",
+        "12kg",
+        "16kg",
+        "20kg"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "featured": false,
+      "tags": [
+        "kettlebell",
+        "gym"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "55f8c133-735e-48a9-a212-6eeebee0d0da",
+      "name": "Boxing Gloves Pro 12oz",
+      "description": "Genuine leather, wrist strap, breathable mesh.",
+      "price": 5799,
+      "original_price": 8299,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?w=600"
+      ],
+      "stock": 55,
+      "rating": 4.7,
+      "reviews_count": 112,
+      "sizes": [],
+      "colors": [
+        "Black/Red",
+        "Black/Gold",
+        "White"
+      ],
+      "featured": false,
+      "tags": [
+        "boxing",
+        "mma"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "7aecd3eb-ad21-49f4-83bc-d4da93404345",
+      "name": "Gym Bag Duffel 40L",
+      "description": "Wet pocket, shoe compartment, water bottle sleeve.",
+      "price": 4599,
+      "original_price": 6199,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600"
+      ],
+      "stock": 80,
+      "rating": 4.6,
+      "reviews_count": 167,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "Navy",
+        "Gray"
+      ],
+      "featured": false,
+      "tags": [
+        "bag",
+        "gym"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "e88497bf-0050-47f0-a27c-f73056657082",
+      "name": "Cycling Helmet MIPS",
+      "description": "MIPS brain protection, 25 vents, adjustable fit.",
+      "price": 7499,
+      "original_price": 9999,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600"
+      ],
+      "stock": 45,
+      "rating": 4.7,
+      "reviews_count": 89,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "White",
+        "Red",
+        "Blue"
+      ],
+      "featured": false,
+      "tags": [
+        "cycling",
+        "helmet"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "6e8df54f-c2bf-4b5b-950b-b9af13f82fe7",
+      "name": "Swimming Goggles Anti-Fog",
+      "description": "UV protection, wide view, adjustable strap.",
+      "price": 1699,
+      "original_price": 2499,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1530143311094-34d807799e8f?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1530143311094-34d807799e8f?w=600"
+      ],
+      "stock": 200,
+      "rating": 4.6,
+      "reviews_count": 234,
+      "sizes": [],
+      "colors": [
+        "Blue",
+        "Black",
+        "Clear"
+      ],
+      "featured": false,
+      "tags": [
+        "swimming",
+        "goggles"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "9b09ca59-79d7-44f9-84a2-cce3a0003005",
+      "name": "Tennis Racket Carbon",
+      "description": "280g, carbon fiber, 100 sq in head, beginner-pro.",
+      "price": 7499,
+      "original_price": 10799,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1546519638405-a9f9b762a0ab?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1546519638405-a9f9b762a0ab?w=600"
+      ],
+      "stock": 50,
+      "rating": 4.6,
+      "reviews_count": 78,
+      "sizes": [],
+      "colors": [
+        "Blue/Black",
+        "Red/Black"
+      ],
+      "featured": false,
+      "tags": [
+        "tennis",
+        "racket"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "50a97dc4-4e2a-42f7-885f-85aac0dfd8b5",
+      "name": "Smart Jump Rope Digital",
+      "description": "Calorie counter, rep counter, LCD display.",
+      "price": 2899,
+      "original_price": 4199,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1598971861713-54ad16a7e72e?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1598971861713-54ad16a7e72e?w=600"
+      ],
+      "stock": 110,
+      "rating": 4.5,
+      "reviews_count": 145,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "Pink"
+      ],
+      "featured": false,
+      "tags": [
+        "jump-rope",
+        "smart"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "92982152-0dc2-4ca8-a413-78331fa27216",
+      "name": "Lifting Belt Leather 4\"",
+      "description": "Double-prong, 4\" wide, thick leather support.",
+      "price": 4999,
+      "original_price": 7099,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600"
+      ],
+      "stock": 70,
+      "rating": 4.7,
+      "reviews_count": 98,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black",
+        "Brown"
+      ],
+      "featured": false,
+      "tags": [
+        "lifting",
+        "powerlifting"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "c16c3684-419a-4b29-88fc-9690a1fc73f2",
+      "name": "Yoga Block 2-Pack",
+      "description": "High-density foam, non-slip, 3 height options.",
+      "price": 1599,
+      "original_price": 2299,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600"
+      ],
+      "stock": 200,
+      "rating": 4.6,
+      "reviews_count": 267,
+      "sizes": [],
+      "colors": [
+        "Purple",
+        "Blue",
+        "Pink",
+        "Gray"
+      ],
+      "featured": false,
+      "tags": [
+        "yoga",
+        "props"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "b9ba0dfb-628d-4de5-b8e7-57baed6849c7",
+      "name": "Sports Knee Sleeve 2-Pack",
+      "description": "Compression support, breathable neoprene.",
+      "price": 2099,
+      "original_price": 3299,
+      "category": "Sports",
+      "image_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600"
+      ],
+      "stock": 150,
+      "rating": 4.5,
+      "reviews_count": 189,
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        "Black"
+      ],
+      "featured": false,
+      "tags": [
+        "knee",
+        "support"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "bb4ce755-9422-4f63-8484-6c77f5d3524e",
+      "name": "Daily Moisturizer SPF 50",
+      "description": "Broad spectrum, non-greasy, 50ml, all skin types.",
+      "price": 2399,
+      "original_price": 3299,
+      "category": "Beauty",
+      "image_url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600"
+      ],
+      "stock": 120,
+      "rating": 4.7,
+      "reviews_count": 189,
+      "sizes": [],
+      "colors": [],
+      "featured": false,
+      "tags": [
+        "moisturizer",
+        "spf"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "5e5de665-e4b6-4e1d-a0e1-a47f25d5a27e",
+      "name": "Hair Dryer 2200W Professional",
+      "description": "Ionic, 3 heat/2 speed settings, diffuser+concentrator.",
+      "price": 6699,
+      "original_price": 9199,
+      "category": "Beauty",
+      "image_url": "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?w=600"
+      ],
+      "stock": 60,
+      "rating": 4.6,
+      "reviews_count": 145,
+      "sizes": [],
+      "colors": [
+        "Black",
+        "Rose Gold",
+        "White"
+      ],
+      "featured": false,
+      "tags": [
+        "hair",
+        "dryer"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "17d8671d-c690-407e-8f3c-49aa8eb9e546",
+      "name": "Jade Facial Roller & Gua Sha",
+      "description": "Real jade stone, dual-ended roller, reduces puffiness.",
+      "price": 2099,
+      "original_price": 3299,
+      "category": "Beauty",
+      "image_url": "https://images.unsplash.com/photo-1617897903246-719242758050?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1617897903246-719242758050?w=600"
+      ],
+      "stock": 150,
+      "rating": 4.7,
+      "reviews_count": 267,
+      "sizes": [],
+      "colors": [],
+      "featured": false,
+      "tags": [
+        "jade",
+        "skincare"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "45e5bcf0-18dd-4cbf-9cf2-fb6e0abe102c",
+      "name": "Sheet Mask Set 20-Pack",
+      "description": "Korean formula, hyaluronic acid, collagen, brightening.",
+      "price": 2499,
+      "original_price": 3749,
+      "category": "Beauty",
+      "image_url": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600"
+      ],
+      "stock": 200,
+      "rating": 4.6,
+      "reviews_count": 389,
+      "sizes": [],
+      "colors": [],
+      "featured": false,
+      "tags": [
+        "mask",
+        "kbeauty"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "40c2995b-774b-49bb-9bcb-7815d7c26d18",
+      "name": "Electric Face Cleanser",
+      "description": "Sonic vibration, 3 modes, waterproof, 30-day charge.",
+      "price": 4999,
+      "original_price": 7499,
+      "category": "Beauty",
+      "image_url": "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=600"
+      ],
+      "stock": 75,
+      "rating": 4.7,
+      "reviews_count": 156,
+      "sizes": [],
+      "colors": [
+        "White",
+        "Pink",
+        "Black"
+      ],
+      "featured": false,
+      "tags": [
+        "cleanser",
+        "device"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "d91a749c-327c-4312-a8ab-6942e90ee76a",
+      "name": "Retinol Night Cream 50ml",
+      "description": "0.5% retinol, peptides, ceramides, anti-aging.",
+      "price": 4199,
+      "original_price": 5799,
+      "category": "Beauty",
+      "image_url": "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600"
+      ],
+      "stock": 90,
+      "rating": 4.8,
+      "reviews_count": 178,
+      "sizes": [],
+      "colors": [],
+      "featured": false,
+      "tags": [
+        "retinol",
+        "anti-aging"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    },
+    {
+      "id": "97313e02-a6f1-4ee7-b0b1-850b01438163",
+      "name": "Eyebrow Microblading Kit",
+      "description": "Precision pen, 12 shades, waterproof, all-day wear.",
+      "price": 1699,
+      "original_price": 2499,
+      "category": "Beauty",
+      "image_url": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=600",
+      "images": [
+        "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=600"
+      ],
+      "stock": 180,
+      "rating": 4.5,
+      "reviews_count": 234,
+      "sizes": [],
+      "colors": [
+        "Blonde",
+        "Brunette",
+        "Dark Brown",
+        "Black"
+      ],
+      "featured": false,
+      "tags": [
+        "brows",
+        "makeup"
+      ],
+      "created_at": "2026-04-24T21:06:21.488Z"
+    }
+  ],
+  "cart_items": [
+    {
+      "id": "c98a3b21-abe1-4ca3-8cd8-65cc6cb81c72",
+      "user_id": "d8b6eee8-0ebd-4821-b9f9-6dc415d99f0d",
+      "product_id": "89b65130-6558-4504-b2c8-6992b51c4d71",
+      "quantity": 1,
+      "size": null,
+      "color": null
+    }
+  ],
+  "orders": [],
+  "order_items": [],
+  "reviews": []
+}
